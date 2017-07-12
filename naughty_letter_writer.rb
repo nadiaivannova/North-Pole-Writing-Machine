@@ -12,7 +12,7 @@ gender      = kid_data_array[1]
 behavior    = kid_data_array[2]
 no_toys     = kid_data_array[3..7]
 toys        = kid_data_array[8]
-infraction  = kind.split("|")[1]
+infraction  = kid.split("|")[1]
 
 next unless behavior == 'naughty'
 
